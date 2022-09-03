@@ -42,10 +42,10 @@ var options = {stats : true};
 //         res.send(data);        
 // });
 
-
+app.use(express.static(__dirname + ''));
 app.get("/",function(req,res){
 
-    res.sendFile(__dirname + "../index.html");
+    res.sendFile("/index.html");
     console.log("Visitor to landing page");
 })
 
