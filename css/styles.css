@@ -88,6 +88,20 @@ body {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+/* #python{
+  width: 10%;
+  height:10%;
+}*/
+#lan img{
+  width:20%;
+  height:20%%;
+
+} 
+#our-logo{
+  color: var(--bs-yellow);
+  font-family: "Audiowide", sans-serif;
+  /* font-size: 30px; */
+}
 
 hr {
   margin: 1rem 0;
