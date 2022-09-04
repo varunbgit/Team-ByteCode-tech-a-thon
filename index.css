@@ -1,0 +1,43 @@
+#cards{
+    border: none;
+
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.button{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    margin-top: 30px;
+}
+#selector{
+    display: flex;
+    justify-content: center;
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+}
+#custom input{
+    padding: 14px;
+}
+.input{
+    display: flex;
+    background-color: black;
+}
+.control-panel{
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+    font-size: 21px;
+}
+#navbarSupportedContent{
+    /* display: flex;
+    justify-content: end; */
+    margin-left: 50%;
+
+}
+#heading{
+    font-family: "Audiowide", sans-serif;
+    color: var(--bs-yellow);
+}
+
